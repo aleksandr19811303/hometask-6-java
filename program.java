@@ -1,6 +1,8 @@
 //Разработать программу, имитирующую поведение коллекции HashSet. В программе содать метод add добавляющий элемент, 
 // метод toString возвращающий строку с элементами множества и метод позволяющий читать элементы по индексу.
 
+
+
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -8,16 +10,16 @@ public class program {
     private static HashMap<Integer, Object> hMap = new HashMap<>();
     private static final Object OBJ = new Object();
     public static void main(String[] args) {
-        addToHMap(0);
+        addToHMap(1);
         addToHMap(7);
         addToHMap(43);
-        addToHMap(13); 
+        addToHMap(14); 
         addToHMap(44);
         addToHMap(1);
-        addToHMap(9);
+        addToHMap(6);
         addToHMap(38);
-        addToHMap(10);
-        addToHMap(50);
+        addToHMap(11);
+        addToHMap(42);
         System.out.println(isEmpty());
 
         printConsole();
